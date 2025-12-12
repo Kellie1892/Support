@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Emotional Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #ffb7d5, #c3caff);
+            padding: 40px;
+            color: #333;
+        }
+
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            width: 600px;
+            margin: auto;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 10px;
+        }
+
+        .button {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            background: #6b5cff;
+            color: white;
+            padding: 12px;
+            border-radius: 10px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Emotional Dashboard</h1>
+
+        <h3>Today's Reminder</h3>
+        <p>You’re safe. You’re loved. Take your time.</p>
+
+        <h3>Mood Check-In</h3>
+        <select id="mood">
+            <option>😇 Amazing</option>
+            <option>🙂 Okay</option>
+            <option>😕 Meh</option>
+            <option>😣 Overwhelmed</option>
+            <option>💔 Heavy</option>
+            <option>🌧 Need comfort</option>
+        </select>
+
+        <h3>Journal</h3>
+        <textarea rows="5" placeholder="Write anything you're feeling..."></textarea>
+
+        <h3>Verse of the Day</h3>
+        <p id="verse">Isaiah 41:10 — Do not fear, for I am with you.</p>
+
+        <a href="https://wa.me/0537968672" class="button">Message Ellena</a>
+    </div>
+</body>
+
+</html>
